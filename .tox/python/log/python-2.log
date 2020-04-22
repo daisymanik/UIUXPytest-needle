@@ -1,0 +1,37 @@
+action: python, msg: envreport
+cwd: D:\Temp\Test\pytest-needle-0.3.11
+cmd: 'D:\Temp\Test\pytest-needle-0.3.11\.tox\python\Scripts\python.EXE' -m pip freeze
+DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. A future version of pip will drop support for Python 2.7. More details about Python 2 support in pip, can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support
+atomicwrites==1.3.0
+attrs==19.3.0
+certifi==2020.4.5.1
+chardet==3.0.4
+colorama==0.4.3
+configparser==4.0.2
+contextlib2==0.6.0.post1
+funcsigs==1.0.2
+idna==2.9
+importlib-metadata==1.6.0
+more-itertools==5.0.0
+needle==0.5.0
+nose==1.3.7
+packaging==20.3
+pathlib2==2.3.5
+Pillow==6.2.2
+pluggy==0.13.1
+py==1.8.1
+pyparsing==2.4.7
+pytest==4.6.9
+pytest-base-url==1.4.1
+pytest-html==1.22.1
+pytest-metadata==1.8.0
+pytest-needle==0.3.11
+pytest-selenium==1.17.0
+pytest-variables==1.9.0
+requests==2.23.0
+scandir==1.10.0
+selenium==3.141.0
+six==1.14.0
+urllib3==1.25.8
+wcwidth==0.1.9
+zipp==1.2.0

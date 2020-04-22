@@ -1,0 +1,17 @@
+action: python, msg: installpkg
+cwd: D:\Temp\Test\pytest-needle-0.3.11
+cmd: 'D:\Temp\Test\pytest-needle-0.3.11\.tox\python\Scripts\python.EXE' -m pip install --no-deps -U '.tox\.tmp\package\1\pytest-needle-0.3.11.zip'
+DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. A future version of pip will drop support for Python 2.7. More details about Python 2 support in pip, can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support
+Processing d:\temp\test\pytest-needle-0.3.11\.tox\.tmp\package\1\pytest-needle-0.3.11.zip
+Building wheels for collected packages: pytest-needle
+  Building wheel for pytest-needle (setup.py): started
+  Building wheel for pytest-needle (setup.py): finished with status 'done'
+  Created wheel for pytest-needle: filename=pytest_needle-0.3.11-py2.py3-none-any.whl size=9690 sha256=58b244fb3d683cf27f5412eeeb2a920683401dc3c1141c90445202d11fd8d33a
+  Stored in directory: c:\users\mohamedrafeekm\appdata\local\pip\cache\wheels\3d\31\48\035b04420c844c78d696bd92852dab073da14f08f3ab8046d5
+Successfully built pytest-needle
+Installing collected packages: pytest-needle
+  Attempting uninstall: pytest-needle
+    Found existing installation: pytest-needle 0.3.11
+    Not uninstalling pytest-needle at d:\temp\test\pytest-needle-0.3.11, outside environment D:\Temp\Test\pytest-needle-0.3.11\.tox\python
+    Can't uninstall 'pytest-needle'. No files were found to uninstall.
+Successfully installed pytest-needle-0.3.11

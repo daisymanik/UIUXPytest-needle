@@ -1,0 +1,7 @@
+action: python, msg: getenv
+cwd: D:\Temp\Test\pytest-needle-0.3.11\.tox
+cmd: 'c:\python27\python.exe' -m virtualenv --no-download --python 'c:\python27\python.exe' python
+created virtual environment CPython2.7.17.final.0-64 in 3402ms
+  creator CPython2Windows(dest=D:\Temp\Test\pytest-needle-0.3.11\.tox\python, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=C:\Users\mohamedrafeekm\AppData\Local\pypa\virtualenv\seed-app-data\v1.0.1)
+  activators BashActivator,BatchActivator,FishActivator,PythonActivator,PowerShellActivator

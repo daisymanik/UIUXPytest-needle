@@ -1,0 +1,56 @@
+action: GLOB, msg: packaging
+cwd: D:\Temp\Test\pytest-needle-0.3.11
+cmd: 'c:\python27\python.exe' setup.py sdist --formats=zip --dist-dir '.tox\dist'
+running sdist
+running egg_info
+writing requirements to pytest_needle.egg-info\requires.txt
+writing pytest_needle.egg-info\PKG-INFO
+writing top-level names to pytest_needle.egg-info\top_level.txt
+writing dependency_links to pytest_needle.egg-info\dependency_links.txt
+writing entry points to pytest_needle.egg-info\entry_points.txt
+reading manifest file 'pytest_needle.egg-info\SOURCES.txt'
+writing manifest file 'pytest_needle.egg-info\SOURCES.txt'
+running check
+creating pytest-needle-0.3.11
+creating pytest-needle-0.3.11\pytest_needle
+creating pytest-needle-0.3.11\pytest_needle.egg-info
+creating pytest-needle-0.3.11\test
+copying files to pytest-needle-0.3.11...
+copying README.md -> pytest-needle-0.3.11
+copying setup.cfg -> pytest-needle-0.3.11
+copying setup.py -> pytest-needle-0.3.11
+copying pytest_needle\__init__.py -> pytest-needle-0.3.11\pytest_needle
+copying pytest_needle\driver.py -> pytest-needle-0.3.11\pytest_needle
+copying pytest_needle\exceptions.py -> pytest-needle-0.3.11\pytest_needle
+copying pytest_needle\plugin.py -> pytest-needle-0.3.11\pytest_needle
+copying pytest_needle.egg-info\PKG-INFO -> pytest-needle-0.3.11\pytest_needle.egg-info
+copying pytest_needle.egg-info\SOURCES.txt -> pytest-needle-0.3.11\pytest_needle.egg-info
+copying pytest_needle.egg-info\dependency_links.txt -> pytest-needle-0.3.11\pytest_needle.egg-info
+copying pytest_needle.egg-info\entry_points.txt -> pytest-needle-0.3.11\pytest_needle.egg-info
+copying pytest_needle.egg-info\requires.txt -> pytest-needle-0.3.11\pytest_needle.egg-info
+copying pytest_needle.egg-info\top_level.txt -> pytest-needle-0.3.11\pytest_needle.egg-info
+copying test\test_example.py -> pytest-needle-0.3.11\test
+copying test\test_screenshot_creation.py -> pytest-needle-0.3.11\test
+Writing pytest-needle-0.3.11\setup.cfg
+creating '.tox\dist\pytest-needle-0.3.11.zip' and adding 'pytest-needle-0.3.11' to it
+adding 'pytest-needle-0.3.11'
+adding 'pytest-needle-0.3.11\pytest_needle'
+adding 'pytest-needle-0.3.11\pytest_needle.egg-info'
+adding 'pytest-needle-0.3.11\test'
+adding 'pytest-needle-0.3.11\PKG-INFO'
+adding 'pytest-needle-0.3.11\README.md'
+adding 'pytest-needle-0.3.11\setup.cfg'
+adding 'pytest-needle-0.3.11\setup.py'
+adding 'pytest-needle-0.3.11\pytest_needle\driver.py'
+adding 'pytest-needle-0.3.11\pytest_needle\exceptions.py'
+adding 'pytest-needle-0.3.11\pytest_needle\plugin.py'
+adding 'pytest-needle-0.3.11\pytest_needle\__init__.py'
+adding 'pytest-needle-0.3.11\pytest_needle.egg-info\dependency_links.txt'
+adding 'pytest-needle-0.3.11\pytest_needle.egg-info\entry_points.txt'
+adding 'pytest-needle-0.3.11\pytest_needle.egg-info\PKG-INFO'
+adding 'pytest-needle-0.3.11\pytest_needle.egg-info\requires.txt'
+adding 'pytest-needle-0.3.11\pytest_needle.egg-info\SOURCES.txt'
+adding 'pytest-needle-0.3.11\pytest_needle.egg-info\top_level.txt'
+adding 'pytest-needle-0.3.11\test\test_example.py'
+adding 'pytest-needle-0.3.11\test\test_screenshot_creation.py'
+removing 'pytest-needle-0.3.11' (and everything under it)
